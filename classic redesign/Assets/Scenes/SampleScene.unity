@@ -401,6 +401,7 @@ GameObject:
   - component: {fileID: 408937898}
   - component: {fileID: 408937897}
   - component: {fileID: 408937896}
+  - component: {fileID: 408937900}
   m_Layer: 0
   m_Name: (place holder) enamy
   m_TagString: Untagged
@@ -499,6 +500,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408937900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408937895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d39bac363fc0940acc717e3a2da86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 0
+  timeBetweenAttacks: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +659,7 @@ GameObject:
   - component: {fileID: 424322502}
   - component: {fileID: 424322504}
   - component: {fileID: 424322503}
+  - component: {fileID: 424322505}
   m_Layer: 0
   m_Name: baked beam
   m_TagString: Untagged
@@ -807,6 +832,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   jumpHeight: 6
+--- !u!114 &424322505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424322496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e612df9da22184785509f89739b25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &748446288
 GameObject:
   m_ObjectHideFlags: 0
