@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &3912701
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +229,9 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &56225468
+=======
+--- !u!1 &110032830
+>>>>>>> parent of 79446be (gfggfhd)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1604,7 +1608,11 @@ SceneRoots:
   - {fileID: 1502224363}
   - {fileID: 56225472}
   - {fileID: 541179191}
+<<<<<<< HEAD
   - {fileID: 1372748139}
   - {fileID: 3912705}
   - {fileID: 2067429897}
   - {fileID: 858669944}
+=======
+  - {fileID: 1544819174}
+>>>>>>> parent of 79446be (gfggfhd)
